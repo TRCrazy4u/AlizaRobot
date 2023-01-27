@@ -45,5 +45,6 @@ telegraph==2.2.0
 telethon==1.26.1
 tgcrypto==1.2.5
 yt_dlp
+youtube_search
 youtube_search_python
 wikipedia==1.4.0
