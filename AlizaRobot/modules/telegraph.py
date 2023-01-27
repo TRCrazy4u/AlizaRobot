@@ -41,7 +41,7 @@ async def _(event):
                 os.remove(downloaded_file_name)
             else:
                 end = datetime.now()
-                (end - start).seconds
+                ms_two = (end - start).seconds
                 os.remove(downloaded_file_name)
                 await h.edit("Uploaded to https://telegra.ph{} in {} seconds.".format(media_urls[0], (ms + ms_two)), link_preview=True)
         elif input_str == "t":      
