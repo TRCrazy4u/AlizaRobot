@@ -5,6 +5,7 @@ from PIL import Image
 from telegraph import Telegraph, exceptions, upload_file
 
 from AlizaRobot import telethn as tbot
+TMP_DOWNLOAD_DIRECTORY = "./"
 from AlizaRobot.events import register
 
 Sakku = "Aliza"
