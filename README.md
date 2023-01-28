@@ -1,6 +1,6 @@
 <img src="https://telegra.ph/file/" align="right" width="200" height="200"/>
 
-# Aliza Robot <img src="https://img.shields.io/github/v/release/deepaiimss/AlizaBot?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
+# Aliza Robot <img src="https://img.shields.io/github/v/release/deepaiimss/AlizaRobot?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
 
 [Aliza Robot](https://github.com/deepaiimss/AlizaRobot) is a Powerful Telegram Management Bot written in Python using Telethon and Mysql by which you can manage your groups.
 
@@ -34,7 +34,7 @@ This project is based on [Telethon](https://github.com/LonamiWebs/Telethon) and 
 > In order to avoid conflicts in your project, you must have/installed
 
 - [Python3.9](https://www.python.org/downloads/release/python-390/)
-- [Telegram API Key](https://docs.pyrogram.org/intro/setup#api-keys)
+- [Telegram API Key](https://my.telegram.org)
 - [Telegram Bot Token](https://t.me/botfather)
 - [MongoDB URI](https://www.mongodb.com/)
 
@@ -43,7 +43,7 @@ This project is based on [Telethon](https://github.com/LonamiWebs/Telethon) and 
 ## 🚀 Heroku Deployment
 
 <h4>Click the button below to deploy Aliza Robot on Heroku!</h4>    
-<a href="https://github.com/deepaiimss/AlizaRobot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
+<a href="https://www.herokucdn.com/deploy/button.svg"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
 
 
 
@@ -76,13 +76,13 @@ Please read [our contribution guidelines](CONTRIBUTING.md), and thank you for be
 
 ## 👨🏻‍💻 Authors & contributors
 
-The original setup of this repository is by [Team Aliza](https://github.com/Team_Alliza).
+The original setup of this repository is by [Team Aliza](https://github.com/Team_Aliza).
 
 For a full list of all authors and contributors, see [the contributors page](https://github.com/deepaiimss/AlizaRobot/contributors).
 
 ## ⚠️ Security
 
-Aliza Robot follows good practices of security, but 100% security cannot be assured. YukkiMusicBot is provided **"as is"** without any **warranty**. Use at your own risk.
+Aliza Robot follows good practices of security, but 100% security cannot be assured. AlizaRobot is provided **"as is"** without any **warranty**. Use at your own risk.
 
 For more information and to report security issues, please refer to our [`SECURITY.md`](SECURITY.md)
 
