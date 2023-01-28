@@ -191,6 +191,11 @@ aiohttpsession = ClientSession()
 print("[INFO]: INITIALIZING ARQ CLIENT...")
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
 
+print("[INFO]: Getting Bot Info...")
+BOT_ID = dispatcher.bot.id
+BOT_NAME = dispatcher.bot.first_name
+BOT_USERNAME = dispatcher.bot.username
+
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
 DEV_USERS = list(DEV_USERS)
 WOLVES = list(WOLVES)
