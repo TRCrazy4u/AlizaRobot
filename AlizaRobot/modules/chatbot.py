@@ -148,9 +148,9 @@ __help__ = f"""
 __mod_name__ = "Chatbot"
 
 
-CHATBOTK_HANDLER = CommandHandler("chatbot", fallen)
-ADD_CHAT_HANDLER = CallbackQueryHandler(fallenadd, pattern=r"add_chat")
-RM_CHAT_HANDLER = CallbackQueryHandler(fallenrm, pattern=r"rm_chat")
+CHATBOTK_HANDLER = CommandHandler("chatbot", aliza)
+ADD_CHAT_HANDLER = CallbackQueryHandler(alizaadd, pattern=r"add_chat")
+RM_CHAT_HANDLER = CallbackQueryHandler(alizarm, pattern=r"rm_chat")
 CHATBOT_HANDLER = MessageHandler(
     Filters.text
     & (~Filters.regex(r"^#[^\s]+") & ~Filters.regex(r"^!") & ~Filters.regex(r"^\/")),
