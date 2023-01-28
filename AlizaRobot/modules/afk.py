@@ -5,7 +5,7 @@ from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
 
-from ALizaRobot import dispatcher
+from AlizaRobot import dispatcher
 from AlizaRobot.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
