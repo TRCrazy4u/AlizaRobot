@@ -29,7 +29,7 @@ from AlizaRobot import (
     WOLVES,
     dispatcher,
 )
-from AlizaRobot import telethn as FallenTelethonClient
+from AlizaRobot import telethn as AlizaTelethonClient
 from AlizaRobot.__main__ import STATS, TOKEN, USER_INFO
 from AlizaRobot.modules.disable import DisableAbleCommandHandler
 from AlizaRobot.modules.helper_funcs.chat_status import sudo_plus
