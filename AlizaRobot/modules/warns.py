@@ -124,7 +124,7 @@ def warn(
             [
                 [
                     InlineKeyboardButton(
-                        "🔘 Remove Warn (admins only)",
+                        "✨ ʀᴇᴍᴏᴠᴇ ✨",
                         callback_data="rm_warn({})".format(user.id),
                     ),
                 ],
@@ -514,7 +514,6 @@ def __chat_settings__(chat_id, user_id):
 __help__ = """
  ❍ /warns <userhandle>`*:* get a user's number, and reason, of warns.
  ❍ /warnlist`*:* list of all current warning filters
-
 *Admins only:*
  ❍ /warn <userhandle>`*:* warn a user. After 3 warns, the user will be banned from the group. Can also be used as a reply.
  ❍ /dwarn <userhandle>`*:* warn a user and delete the message. After 3 warns, the user will be banned from the group. Can also be used as a reply.
