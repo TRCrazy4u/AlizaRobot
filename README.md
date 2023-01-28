@@ -42,8 +42,8 @@ This project is based on [Telethon](https://github.com/LonamiWebs/Telethon) and 
 
 ## 🚀 Heroku Deployment
 
-Click the button below to deploy Aliza Robot on Heroku!  
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+<h4>Click the button below to deploy Aliza Robot on Heroku!</h4>    
+<a href="https://heroku.com/deploy/"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
 
 
 ## 🏷 Support
