@@ -77,7 +77,7 @@ Please read [our contribution guidelines](CONTRIBUTING.md), and thank you for be
 
 ## 👨🏻‍💻 Authors & contributors
 
-The original setup of this repository is by [Team Yukki](https://github.com/TeamYukki).
+The original setup of this repository is by [Team Aliza](https://github.com/Team_Alliza).
 
 For a full list of all authors and contributors, see [the contributors page](https://github.com/deepaiimss/AlizaRobot/contributors).
 
