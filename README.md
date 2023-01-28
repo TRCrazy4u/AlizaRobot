@@ -14,8 +14,7 @@
 
 Here's a brief high-level overview of the Aliza Robot:
 
-This project is based on [Telethon](https://github.com/Lonamiw
-Webs/Telethon) and [Pyrogram](https://github.com/pyrogram) . Pyrogram is a modern, elegant and asynchronous MTProto API framework and Telethon makes the bot makes works in its smooth way
+This project is based on [Telethon](https://github.com/LonamiWebs/Telethon) and [Pyrogram](https://github.com/pyrogram) . Pyrogram is a modern, elegant and asynchronous MTProto API framework and Telethon makes the bot makes works in its smooth way
 
 * For database, Aliza uses the MongoDB to store data and keys. [MongoDB](https://www.mongodb.com/) is a document database with the scalability and flexibility that you want with the querying and indexing that you need.
 * Project uses the bs4 web scrapping for getting many platform details. [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) is a Python library for pulling data out of HTML and XML files.
