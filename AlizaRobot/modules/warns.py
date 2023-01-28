@@ -12,7 +12,7 @@ from AlizaRobot.Handlers.validation import (
     user_admin,
     user_admin_no_reply,
 )
-from Yone.Handlers.extraction import (
+from AlizaRobot.modules.helper_funcs.extraction import (
     extract_text,
     extract_user,
     extract_user_and_text,
@@ -57,16 +57,16 @@ def warn(
         # message.reply_text("Damn admins, They are too far to be One Punched!")
         return
 
-    if user.id in INSPECTOR:
+    if user.id in TIGERS:
         if warner:
-            message.reply_text("INSPECTOR cant be warned.")
+            message.reply_text("Tigers cant be warned.")
         else:
             message.reply_text(
                 "Tiger triggered an auto warn filter!\n I won't warn INSPECTOR but they should avoid abusing this.",
             )
         return
 
-    if user.id in REQUESTER:
+    if user.id in WOLVES:
         if warner:
             message.reply_text("Wolf disasters are warn immune.")
         else:
