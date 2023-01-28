@@ -187,9 +187,9 @@ telethn = TelegramClient("Aliza", API_ID, API_HASH)
 
 pbot = Client("AlizaRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
+print("[INFO]: Initialising Aiohtpp session")
 aiohttpsession = ClientSession()
 
-print("[INFO]: Getting Bot Info...")
 BOT_ID = dispatcher.bot.id
 BOT_NAME = dispatcher.bot.first_name
 BOT_USERNAME = dispatcher.bot.username
