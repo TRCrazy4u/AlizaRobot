@@ -3,9 +3,9 @@ import re
 from typing import Optional
 
 import telegram
-from AlizaRobot import INSPECTOR, REQUESTER, dispatcher
-from AlizaRobot.Plugins.disable import DisableAbleCommandHandler
-from AlizaRobot.Handlers.validation import (
+from AlizaRobot import TIGERS, WOLVES, dispatcher
+from AlizaRobot.modules.disable import DisableAbleCommandHandler
+from AlizaRobot.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     is_user_admin,
@@ -17,10 +17,10 @@ from AlizaRobot.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from AlizaRobot.Handlers.filters import CustomFilters
-from AlizaRobot.Handlers.misc import split_message
-from AlizaRobot.Handlers.string_handling import split_quotes
-from AlizaRobot.Plugins.Admin.log_channel import loggable
+from AlizaRobot.modules.helper_funcs.filters import CustomFilters
+from AlizaRobot.modules.helper_funcs.misc import split_message
+from AlizaRobot.modules.helper_funcs.string_handling import split_quotes
+from AlizaRobot.modules.log_channel import loggable
 from AlizaRobot.modules.sql import warns_sql as sql
 from telegram import (
     CallbackQuery,
