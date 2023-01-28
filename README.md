@@ -1,4 +1,4 @@
-<img src="https://telegra.ph/file/" align="right" width="200" height="200"/>
+<img src="https://telegra.ph/file/ae5077378f8f833a1334d.jpg" align="right" width="200" height="200"/>
 
 # Aliza Robot <img src="https://img.shields.io/github/v/release/deepaiimss/AlizaRobot?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
 
