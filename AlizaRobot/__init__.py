@@ -187,11 +187,12 @@ updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("Aliza", API_ID, API_HASH)
 
 pbot = Client("AlizaRobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
-dispatcher = updater.dispatcher
+dispatcher =updater.dispatcher
+print("[INFO]: INITIALZING AIOHTTP SESSION")
 aiohttpsession = ClientSession()
-
-print("[INFO]: Initialising ARQ Client")
-arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
+# ARQ Client
+print("[INFO]: INITIALIZING ARQ CLIENT")
+arq = ARQ("https://arq.hamker.in", "OIAQCH-OGHWYR-DTWMVO-XIXWFH-ARQ"", aiohttpsession)
 
 BOT_ID = dispatcher.bot.id
 BOT_NAME = dispatcher.bot.first_name
