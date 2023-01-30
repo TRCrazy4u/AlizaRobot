@@ -96,7 +96,7 @@ if ENV:
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None) # From:- https://www.remove.bg/
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", None)
     ARQ_API_URL = os.environ.get("ARQ_API_URL", "https://arq.hamker.in")
-    ARQ_API_KEY = os.environ.get("ARQ_API_KEY", "LJMETG-DPHBCX-DGHJCD-TMFIGB-ARQ")
+    ARQ_API_KEY = os.environ.get("ARQ_API_KEY", "OIAQCH-OGHWYR-DTWMVO-XIXWFH-ARQ")
     
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
 
