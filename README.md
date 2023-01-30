@@ -71,7 +71,7 @@ Together, we can make Aliza Robot **better**!
 
 First off, thanks for taking the time to contribute! Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will benefit everybody else and are **greatly appreciated**.
 
-Please read [our contribution guidelines](https://github.com/deepaiimss/AlizaRobot/blob/main/AlizaRobot/resources/README.md), and thank you for being involved!
+Please read [our contribution guidelines](https://github.com/deepaiimss/AlizaRobot/blob/main/.github/CONTRIBUTING.md), and thank you for being involved!
 
 ## 👨🏻‍💻 Authors & contributors
 
