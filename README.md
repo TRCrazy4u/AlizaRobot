@@ -23,7 +23,7 @@ This project is based on [Telethon](https://github.com/LonamiWebs/Telethon) and 
 
 # ⚡️ Getting Started
 
-### Before deploying Aliza Robot , please have a look towards [all available config vars](../config/README.md) of the project.
+### Before deploying Aliza Robot , please have a look towards [all available config vars](https://github.com/deepaiimss/AlizaRobot/blob/main/AlizaRobot/config.py) of the project.
 
 > If you want to start working with Aliza Robot you can either fork or import repo .
 > If you'd like to talk to us, join us on our [Telegram Group](https://t.me/Aliza_support)
