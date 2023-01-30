@@ -192,7 +192,7 @@ print("[INFO]: INITIALZING AIOHTTP SESSION")
 aiohttpsession = ClientSession()
 # ARQ Client
 print("[INFO]: INITIALIZING ARQ CLIENT")
-arq = ARQ("https://arq.hamker.in", "OIAQCH-OGHWYR-DTWMVO-XIXWFH-ARQ"", aiohttpsession)
+arq = ARQ("https://arq.hamker.in", "OIAQCH-OGHWYR-DTWMVO-XIXWFH-ARQ", aiohttpsession)
 
 BOT_ID = dispatcher.bot.id
 BOT_NAME = dispatcher.bot.first_name
