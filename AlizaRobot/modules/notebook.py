@@ -14,12 +14,12 @@ def handwrite(update: Update, context: CallbackContext):
         text = message.reply_to_message.text
     else:
         text = update.effective_message.text.split(None, 1)[1]
-    m = message.reply_text("Writing the text...")
+    m = message.reply_text("Writing the text 🔄")
     req = requests.get(f"https://api.sdbots.tk/write?text={text}").url
     message.reply_photo(
         photo=req,
         caption=f"""
-Successfully Written Text you 📖
+Successfully Written Text for you 📖
 ✍🏻 **Written By :** [{BOT_NAME}](https://t.me/{BOT_USERNAME})
 👤 **Requested by :** {update.effective_user.first_name}
 🔗 **Link :** `{req}`""",
