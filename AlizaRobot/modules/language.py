@@ -53,7 +53,7 @@ def set_lang(update: Update, _) -> None:
     keyb.append(
         [
             InlineKeyboardButton(
-                text=Help us in Translations",
+                text="Help us in Translations",
                 url="https://github.com/Abishnoi69/ExonRobot",  # plz. Don't edit and change
             )
         ]
