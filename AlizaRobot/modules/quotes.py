@@ -392,8 +392,6 @@ async def quott_(event):
 
 __mod_name__ = "Quotly"
 
-from AlizaRobot.modules.language import gs
 
 
-def get_help(chat):
-    return gs(chat, "quotly_help")
+
