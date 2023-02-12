@@ -391,7 +391,3 @@ async def quott_(event):
 
 
 __mod_name__ = "Quotly"
-
-
-
-
