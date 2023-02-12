@@ -391,3 +391,8 @@ async def quott_(event):
 
 
 __mod_name__ = "Quotly"
+
+__help__ = """
+ ❍ /q <reply to a message>*:* Creates a quote from the message
+ ❍ /q r <reply to a, message>*:* Creates a quote from the message with reply
+"""
