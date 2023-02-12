@@ -332,7 +332,7 @@ async def quott_(event):
     match = event.pattern_match.group(1).strip()
     if not event.is_reply:
         return await event.eor("ᴘʟᴇᴀsᴇ ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ")
-    msg = await event.reply("⚡️")
+    msg = await event.reply("Quoting messages")
     reply = await event.get_reply_message()
     replied_to, reply_ = None, None
     if match:
