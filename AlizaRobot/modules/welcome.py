@@ -49,6 +49,28 @@ from AlizaRobot.modules.helper_funcs.string_handling import (
 from AlizaRobot.modules.log_channel import loggable
 from AlizaRobot.modules.sql.global_bans_sql import is_user_gbanned
 
+VALID_WELCOME_FORMATTERS = [
+    "first",
+    "last",
+    "fullname",
+    "username",
+    "id",
+    "count",
+    "chatname",
+    "mention",
+]
+
+ENUM_FUNC_MAP = {
+    sql.Types.TEXT.value: dispatcher.bot.send_message,
+    sql.Types.BUTTON_TEXT.value: dispatcher.bot.send_message,
+    sql.Types.STICKER.value: dispatcher.bot.send_sticker,
+    sql.Types.DOCUMENT.value: dispatcher.bot.send_document,
+    sql.Types.PHOTO.value: dispatcher.bot.send_photo,
+    sql.Types.AUDIO.value: dispatcher.bot.send_audio,
+    sql.Types.VOICE.value: dispatcher.bot.send_voice,
+    sql.Types.VIDEO.value: dispatcher.bot.send_video,
+}
+
 VERIFIED_USER_WAITLIST = {}
 
 
